@@ -22,10 +22,12 @@ function App() {
 
 	return (
 		<div className='App'>
-			<nav>
-				<Scoreboard strings={lang.scoreboard} />
+			<nav className='App__Navbar'>
+				<Scoreboard strings={lang.scoreboard} score={score} highScore={highScore} />
 			</nav>
-			<Card />
+			<main className='App__Cards'>
+				<Card />
+			</main>
 		</div>
 	);
 }
