@@ -1,1 +1,26 @@
 /** @format */
+
+.App__Cards {
+	--grid-columns: 6;
+	display: grid;
+	grid-template-columns: repeat(var(--grid-columns), 1fr);
+	gap: var(--gap-sm);
+}
+
+@media screen and (max-width: 992px) {
+	.App__Cards {
+		--grid-columns: 4;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.App__Cards {
+		--grid-columns: 3;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.App__Cards {
+		--grid-columns: 2;
+	}
+}

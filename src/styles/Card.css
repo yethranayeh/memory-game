@@ -1,0 +1,30 @@
+/** @format */
+
+.Card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: var(--gap-sm);
+	cursor: pointer;
+	padding: var(--padding-sm);
+	background-color: var(--light);
+	border: 2px solid var(--dark);
+	border-radius: var(--border-radius);
+	transition: background-color 250ms ease-out, color 250ms ease-out;
+}
+
+.Card:hover {
+	background-color: var(--dark);
+	color: var(--light);
+}
+
+.Card__Image {
+	width: 200px;
+	height: 200px;
+	border-radius: var(--border-radius);
+	overflow: hidden;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
