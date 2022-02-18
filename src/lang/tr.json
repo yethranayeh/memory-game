@@ -1,4 +1,6 @@
 {
+	"title": "Hafıza Oyunu",
+	"description": "Oyunun amacı bütün resimlere en fazla bir defa tıklayarak bütün resimleri seçmek. Eğer aynı resme ikinci kez tıklarsanız, oyun yeniden başlar.",
 	"scoreboard": {
 		"score": "Puan",
 		"highscore": "Yüksek puan"

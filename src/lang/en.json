@@ -1,4 +1,6 @@
 {
+	"title": "Memory Game",
+	"description": "The objective of this game is to click every image without choosing the same image more than once. If you click the same image twice, the game resets.",
 	"scoreboard": {
 		"score": "Score",
 		"highscore": "High score"

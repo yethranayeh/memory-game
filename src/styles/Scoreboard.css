@@ -1,0 +1,22 @@
+/** @format */
+
+.Scoreboard {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	gap: var(--gap-sm);
+	padding: var(--padding-md);
+	border: 2px solid var(--dark);
+	border-radius: var(--border-radius);
+	background-color: var(--light);
+}
+
+.Scoreboard__Score {
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+.Scoreboard__Highscore {
+	font-style: italic;
+}

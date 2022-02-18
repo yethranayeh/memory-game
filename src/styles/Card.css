@@ -20,11 +20,34 @@
 }
 
 .Card__Image {
-	width: 200px;
-	height: 200px;
+	--imgSize: 200px;
+	width: var(--imgSize);
+	height: var(--imgSize);
 	border-radius: var(--border-radius);
 	overflow: hidden;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+.Card__Text {
+	text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+	.Card__Image {
+		--imgSize: 180px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.Card__Image {
+		--imgSize: 160px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.Card__Image {
+		--imgSize: 140px;
+	}
 }

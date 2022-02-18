@@ -1,5 +1,31 @@
 /** @format */
 
+.App {
+	padding: var(--padding-md);
+}
+
+.App__Navbar {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: var(--margin-md);
+}
+
+.App__Navbar-Intro {
+	flex: 1 5 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: var(--gap-sm);
+}
+
+.App__Navbar-Info {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+	flex: 5 1 50%;
+}
+
 .App__Cards {
 	--grid-columns: 6;
 	display: grid;
@@ -14,6 +40,9 @@
 }
 
 @media screen and (max-width: 768px) {
+	.App {
+		padding: var(--padding-sm);
+	}
 	.App__Cards {
 		--grid-columns: 3;
 	}

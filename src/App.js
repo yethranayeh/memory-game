@@ -51,11 +51,17 @@ function App() {
 	return (
 		<div className='App'>
 			<nav className='App__Navbar'>
-				<select onChange={handleLanguageChange}>
-					<option value='en'>English</option>
-					<option value='tr'>Türkçe</option>
-				</select>
-				<Scoreboard strings={lang.scoreboard} score={score} highScore={highScore} />
+				<div className='App__Navbar-Intro'>
+					<h1>{lang.title}</h1>
+					<p>{lang.description}</p>
+					<select onChange={handleLanguageChange}>
+						<option value='en'>English</option>
+						<option value='tr'>Türkçe</option>
+					</select>
+				</div>
+				<div className='App__Navbar-Info'>
+					<Scoreboard strings={lang.scoreboard} score={score} highScore={highScore} />
+				</div>
 			</nav>
 			<main className='App__Cards'>
 				{cardOrder.map((index) => (

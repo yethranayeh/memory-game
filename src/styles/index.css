@@ -2,7 +2,9 @@
 :root {
 	--border-radius: 10px;
 	--padding-sm: 0.4rem;
+	--padding-md: 1rem;
 	--gap-sm: 0.4rem;
+	--margin-md: 1rem;
 
 	--dark: #222;
 	--light: #f8f8f8;
@@ -12,6 +14,11 @@
 body {
 	background-color: var(--bg);
 	color: var(--dark);
+}
+
+h1 {
+	font-size: 1.4rem;
+	font-weight: bold;
 }
 
 h2 {

@@ -1,6 +1,7 @@
 /** @format */
 
-import React, { useState } from "react";
+import React from "react";
+import "../styles/Scoreboard.css";
 
 export default function Scoreboard({ strings, score, highScore }) {
 	return (
