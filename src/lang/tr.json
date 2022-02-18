@@ -2,5 +2,21 @@
 	"scoreboard": {
 		"score": "Puan",
 		"highscore": "Yüksek puan"
+	},
+	"card": {
+		"dogs": [
+			"Anadolu Çoban Köpeği",
+			"Amerikan Eskimo Köpeği",
+			"Beagle",
+			"Brüksel Griffonu",
+			"Alman Çoban Köpeği",
+			"Dalmaçyalı",
+			"Foksterye",
+			"Golden Retriever",
+			"Rottweiler",
+			"Samoyed",
+			"Sibirya Kurdu",
+			"Shiba Inu"
+		]
 	}
 }
