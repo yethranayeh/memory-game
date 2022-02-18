@@ -9,7 +9,9 @@ import Card from "./components/Card";
 
 function App() {
 	const [score, setScore] = useState(0);
-	const [highScore, setHighScore] = useState(0);
+	const localHighScore = Number(localStorage.getItem("highScore"));
+	// No fallback if localStorage is empty, because "null" converted to Number type is 0
+	const [highScore, setHighScore] = useState(localHighScore);
 	const [lang, setLang] = useState(english);
 	const [cardOrder, setCardOrder] = useState([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]);
 	const [clicked, setClicked] = useState([]);
@@ -23,13 +25,19 @@ function App() {
 	};
 
 	const handleCardClick = (index) => {
+		// If the card has already been clicked, reset the game
 		if (clicked.includes(index)) {
-			setClicked([]);
 			setScore(0);
+			setClicked([]);
+			if (score > highScore) {
+				setHighScore(score);
+				localStorage.setItem("highScore", score);
+			}
 		} else {
-			setClicked([...clicked, index]);
 			setScore(score + 1);
+			setClicked([...clicked, index]);
 		}
+		shuffleOrder();
 	};
 
 	const shuffleOrder = () => {
@@ -52,7 +60,7 @@ function App() {
 			<button onClick={shuffleOrder}>Shuffle</button>
 			<main className='App__Cards'>
 				{cardOrder.map((index) => (
-					<Card key={index} index={index} strings={lang.card} clickHandler={shuffleOrder} />
+					<Card key={index} index={index} strings={lang.card} clickHandler={handleCardClick} />
 				))}
 			</main>
 		</div>

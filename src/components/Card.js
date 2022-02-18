@@ -49,7 +49,7 @@ export default function Card({ index, strings, clickHandler }) {
 	}
 
 	return (
-		<div className={`Card`} onClick={clickHandler}>
+		<div className={`Card`} onClick={() => clickHandler(index)}>
 			<div className={`Card__Image`} style={{ backgroundImage: `url(${imgSrc})` }}></div>
 			<div className={`Card__Text`}>
 				<h2>{dogName}</h2>
