@@ -12,15 +12,18 @@ function App() {
 	const localHighScore = Number(localStorage.getItem("highScore"));
 	// No fallback if localStorage is empty, because "null" converted to Number type is 0
 	const [highScore, setHighScore] = useState(localHighScore);
-	const [lang, setLang] = useState(english);
+	const localLang = localStorage.getItem("MemoryGameLang");
+	const [lang, setLang] = useState((localLang && (localLang === "en" ? english : turkish)) || english);
 	const [cardOrder, setCardOrder] = useState([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]);
 	const [clicked, setClicked] = useState([]);
 
 	const handleLanguageChange = (e) => {
 		if (e.target.value === "en") {
 			setLang(english);
+			localStorage.setItem("MemoryGameLang", "en");
 		} else if (e.target.value === "tr") {
 			setLang(turkish);
+			localStorage.setItem("MemoryGameLang", "tr");
 		}
 	};
 
@@ -55,8 +58,12 @@ function App() {
 					<h1>{lang.title}</h1>
 					<p>{lang.description}</p>
 					<select onChange={handleLanguageChange}>
-						<option value='en'>English</option>
-						<option value='tr'>Türkçe</option>
+						<option value='en' selected={localLang === "en" ? "selected" : false}>
+							English
+						</option>
+						<option value='tr' selected={localLang === "tr" ? "selected" : false}>
+							Türkçe
+						</option>
 					</select>
 				</div>
 				<div className='App__Navbar-Info'>
