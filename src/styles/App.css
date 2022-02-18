@@ -18,6 +18,13 @@
 	gap: var(--gap-sm);
 }
 
+.App__LangSelect {
+	border: 2px solid var(--dark);
+	background-color: var(--light);
+	border-radius: var(--border-radius);
+	padding: var(--padding-sm);
+}
+
 .App__Navbar-Info {
 	display: flex;
 	flex-direction: column;

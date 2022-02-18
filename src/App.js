@@ -57,13 +57,12 @@ function App() {
 				<div className='App__Navbar-Intro'>
 					<h1>{lang.title}</h1>
 					<p>{lang.description}</p>
-					<select onChange={handleLanguageChange}>
-						<option value='en' selected={localLang === "en" ? "selected" : false}>
-							English
-						</option>
-						<option value='tr' selected={localLang === "tr" ? "selected" : false}>
-							Türkçe
-						</option>
+					<select
+						className='App__LangSelect'
+						onChange={handleLanguageChange}
+						defaultValue={localLang === "en" ? "en" : "tr"}>
+						<option value='en'>English</option>
+						<option value='tr'>Türkçe</option>
 					</select>
 				</div>
 				<div className='App__Navbar-Info'>
