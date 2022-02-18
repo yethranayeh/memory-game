@@ -57,7 +57,6 @@ function App() {
 				</select>
 				<Scoreboard strings={lang.scoreboard} score={score} highScore={highScore} />
 			</nav>
-			<button onClick={shuffleOrder}>Shuffle</button>
 			<main className='App__Cards'>
 				{cardOrder.map((index) => (
 					<Card key={index} index={index} strings={lang.card} clickHandler={handleCardClick} />
