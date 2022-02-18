@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.078e0f92.css",
-    "main.js": "./static/js/main.fbd8ecf1.js",
+    "main.js": "./static/js/main.d2d37972.js",
     "static/media/dosis-all-400-normal.woff": "./static/media/dosis-all-400-normal.1f3cfbefcfbd94baf8ab.woff",
     "static/media/dog1.jpg": "./static/media/dog1.d1762c874ce24154b565.jpg",
     "static/media/dog3.jpg": "./static/media/dog3.d5ec7f4113ac7b781d7c.jpg",
@@ -19,10 +19,10 @@
     "static/media/dosis-vietnamese-400-normal.woff2": "./static/media/dosis-vietnamese-400-normal.a231c6efbcf8dde0ad52.woff2",
     "index.html": "./index.html",
     "main.078e0f92.css.map": "./static/css/main.078e0f92.css.map",
-    "main.fbd8ecf1.js.map": "./static/js/main.fbd8ecf1.js.map"
+    "main.d2d37972.js.map": "./static/js/main.d2d37972.js.map"
   },
   "entrypoints": [
     "static/css/main.078e0f92.css",
-    "static/js/main.fbd8ecf1.js"
+    "static/js/main.d2d37972.js"
   ]
 }
