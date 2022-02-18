@@ -2,6 +2,9 @@
 
 # Memory Game
 
+The memory game has a very simple objective: to click every image without choosing the same image more than once.
+If you click the same image twice, the game resets and the player starts from 0.
+
 # Credits
 
 - Card order shuffle method (Schwartzian transform) by [superluminary](https://stackoverflow.com/a/46545530/16806945)

@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "./static/css/main.078e0f92.css",
+    "main.js": "./static/js/main.fbd8ecf1.js",
+    "static/media/dosis-all-400-normal.woff": "./static/media/dosis-all-400-normal.1f3cfbefcfbd94baf8ab.woff",
+    "static/media/dog1.jpg": "./static/media/dog1.d1762c874ce24154b565.jpg",
+    "static/media/dog3.jpg": "./static/media/dog3.d5ec7f4113ac7b781d7c.jpg",
+    "static/media/dog2.jpg": "./static/media/dog2.9ee640e6898da97ec26c.jpg",
+    "static/media/dosis-latin-400-normal.woff2": "./static/media/dosis-latin-400-normal.89135c096883532cc657.woff2",
+    "static/media/dog12.jpg": "./static/media/dog12.88c1ae54905c27185680.jpg",
+    "static/media/dog10.jpg": "./static/media/dog10.8648c91271112f1f8e83.jpg",
+    "static/media/dog11.jpg": "./static/media/dog11.6eda92247708614f01f8.jpg",
+    "static/media/dog9.jpg": "./static/media/dog9.d3b3ef00febf55f2ce43.jpg",
+    "static/media/dog6.jpg": "./static/media/dog6.f252cc9c99668b4a434a.jpg",
+    "static/media/dog5.jpg": "./static/media/dog5.cac1fca6dc5a01823738.jpg",
+    "static/media/dog8.jpg": "./static/media/dog8.c8dff4839a13bc262547.jpg",
+    "static/media/dog4.jpg": "./static/media/dog4.15dc5b211e820db97d39.jpg",
+    "static/media/dosis-latin-ext-400-normal.woff2": "./static/media/dosis-latin-ext-400-normal.41b658f94b681d2009c4.woff2",
+    "static/media/dosis-vietnamese-400-normal.woff2": "./static/media/dosis-vietnamese-400-normal.a231c6efbcf8dde0ad52.woff2",
+    "index.html": "./index.html",
+    "main.078e0f92.css.map": "./static/css/main.078e0f92.css.map",
+    "main.fbd8ecf1.js.map": "./static/js/main.fbd8ecf1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.078e0f92.css",
+    "static/js/main.fbd8ecf1.js"
+  ]
+}
