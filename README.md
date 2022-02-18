@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+<!-- @format -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Memory Game
 
-## Available Scripts
+# Credits
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Card order shuffle method (Schwartzian transform) by [superluminary](https://stackoverflow.com/a/46545530/16806945)
+- Anatolian Shepherd photo from [anatolianshepherd.org](https://www.anatolianshepherd.org/)
+- American Eskimo photo by [Mohan Nannapaneni](https://www.pexels.com/@mnannapaneni?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from [Pexels](https://www.pexels.com/photo/photo-of-a-white-american-eskimo-dog-on-green-grass-7237824/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- Beagle photo by [Artem Beliaikin](https://www.pexels.com/@belart84?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from [Pexels](https://www.pexels.com/photo/adult-beagle-walking-on-grass-field-1485637/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- Brussels Griffon photo by [Dan9186](https://en.wikipedia.org/wiki/User:Dan9186) from [Wikipedia](https://en.wikipedia.org/wiki/)
+- German Shepherd photo by [Adam Kontor](https://www.pexels.com/@adamkontor) from [Pexels](https://www.pexels.com/photo/adult-german-shepherd-lying-on-ground-333083/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- Dalmatian photo by [Rsur6933](https://commons.wikimedia.org/w/index.php?title=User:Rsur6933) from [Wikipedia](https://en.wikipedia.org/wiki/)
+- Fox Terrier photo by [Frei sein](https://commons.wikimedia.org/wiki/User:Frei_sein) from [Wikipedia](https://en.wikipedia.org/wiki/)
+- Golden Retriever photo by [Helena Lopes](https://www.pexels.com/@wildlittlethingsphoto?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from [Pexels](https://www.pexels.com/photo/obedient-golden-retriever-spending-time-in-park-3752119/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- Rottweiler photo by [Christoph Sixt](https://www.pexels.com/@christoph-sixt-53441410?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from [Pexels](https://www.pexels.com/photo/close-up-shot-of-a-rottweiler-looking-at-camera-while-standing-on-a-grassy-field-7766309/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- Samoyed by [Helena Lopes](https://www.pexels.com/@wildlittlethingsphoto?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from [Pexels](https://www.pexels.com/photo/samoyed-puppy-walking-on-wooden-flooring-4453061/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- Siberian Husky by [Kateryna Babaieva](https://www.pexels.com/@kateryna-babaieva-1423213?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from [Pexels](https://www.pexels.com/photo/white-and-black-siberian-husky-on-snow-covered-ground-3715585/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- Shiba Inu photo by by [Mátyás Varga](https://www.pexels.com/@matyas-varga-81017942?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from [Pexels](https://www.pexels.com/photo/portrait-of-shiba-inu-10670324/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
