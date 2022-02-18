@@ -60,7 +60,7 @@ function App() {
 					<select
 						className='App__LangSelect'
 						onChange={handleLanguageChange}
-						defaultValue={localLang === "en" ? "en" : "tr"}>
+						defaultValue={localLang === "tr" ? "tr" : "en"}>
 						<option value='en'>English</option>
 						<option value='tr'>Türkçe</option>
 					</select>
