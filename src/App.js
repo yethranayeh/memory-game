@@ -23,6 +23,10 @@ function App() {
 	return (
 		<div className='App'>
 			<nav className='App__Navbar'>
+				<select onChange={handleLanguageChange}>
+					<option value='en'>English</option>
+					<option value='tr'>Türkçe</option>
+				</select>
 				<Scoreboard strings={lang.scoreboard} score={score} highScore={highScore} />
 			</nav>
 			<main className='App__Cards'>
