@@ -2,5 +2,21 @@
 	"scoreboard": {
 		"score": "Score",
 		"highscore": "High score"
+	},
+	"card": {
+		"dogs": [
+			"Anatolian Shepherd",
+			"American Eskimo",
+			"Beagle",
+			"Brussels Griffon",
+			"German Shepherd",
+			"Dalmatian",
+			"Fox Terrier",
+			"Golden Retriever",
+			"Rottweiler",
+			"Samoyed",
+			"Siberian Husky",
+			"Shiba Inu"
+		]
 	}
 }
